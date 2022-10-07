@@ -1,0 +1,13 @@
+Iniciar: git init
+Mover arquivos: git add
+Commit: git commit
+
+**** Criando um repositório
+
+git init
+git config --global user.email "matheushenriqueaganete@gmail.com"
+git config --global user.name "Matheus Aganete"
+
+git status
+
+git commit -m "mensagem a ser passada"

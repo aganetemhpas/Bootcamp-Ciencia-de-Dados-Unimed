@@ -1,0 +1,19 @@
+**** Isso gera uma chave, ao alterar o texto gera-se outra chave
+openssl sha1 textoteste.txt
+
+****** Objetos internos do Git
+
+-> Blobs
+-> Trees
+-> Commits
+
+
+echo 'conteudo' | hit hash-object --stdin
+
+echo -e 'conteudo' | openssl sha1
+
+echo -e 'blob 9\0conteudo' | openssl sha1
+
+
+***** Chave SSH e Token
+ssh-keygen -t ed25519 -C matheushenriqueaganete@gmail.com

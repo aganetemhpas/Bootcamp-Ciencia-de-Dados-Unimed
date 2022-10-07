@@ -1,0 +1,12 @@
+git config --list
+
+*** alterar configuraçoes
+
+git remote add origin LINK
+git push origin master
+
+**** Se der algum erro - para atualizar
+git pull origin master
+
+*** Clonar codigo do GitHub
+Git clone URL

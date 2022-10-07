@@ -1,0 +1,16 @@
+*****Listar : dir
+ls -a exibi ocultos
+
+***** Mudar diretorio: cd NOMEDIRETORIO
+
+***** Retroceder nivel: cd..
+
+***** Limpar terminal: cls
+
+***** Criar pasta: mkdir NOMEPASTA
+
+***** criar arquivo: echo NOMEARQUIVO > NOMEARQUIVO.txt
+
+***** deletar arquivos: del NOMEARQUVO/PASTA
+
+***** delatar repositorio: rmdir NOMEARQUIVO /S /Q 
