@@ -1,0 +1,27 @@
+SHOW DATABASES;
+
+CREATE DATABASE nome; 
+
+USE nome;
+
+DROP DATABASE nome;
+
+CREATE TABLE nome_tablela(
+	atributos)
+ create table periodicos(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome_periodico VARCHAR(20),
+    inss INT,
+    id_editora INT
+    );
+create table editora(
+    id integer auto_increment PRIMARY KEY,
+    nome_editora varchar(20) unique,
+    pais varchar(5)
+    );
+
+ALTER TABLE periodicos ADD CONSTRAINT fk_editora_periodico FOREIGN KEY(id_editora) REFERENCES editora(id);
+
+INSERT INTO editora (nome_editora, pais) VALUES('IEEE','UK');
+
+SELECT * FROM editora;
